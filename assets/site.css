@@ -1,0 +1,41 @@
+/* ZetaStore site chrome — 글 본문(.post-body) 안은 각 글이 가진 스타일을 그대로 씁니다 */
+body.zs-site{margin:0;background:#f3f6f8;color:#1f2d3a;font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.zs-nav{background:#0f2b3a;color:#fff}
+.zs-nav-in{max-width:1040px;margin:0 auto;padding:12px 18px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.zs-brand{color:#fff;font-weight:900;font-size:1.25rem;text-decoration:none;letter-spacing:.02em}
+.zs-nav nav{display:flex;flex-wrap:wrap;gap:4px 14px;margin-left:auto}
+.zs-nav nav a{color:#cfe5ee;text-decoration:none;font-size:.92rem}
+.zs-nav nav a:hover{color:#fff;text-decoration:underline}
+.zs-main{max-width:1040px;margin:0 auto;padding:18px 18px 40px}
+.zs-post-head{padding:18px 0 6px}
+.zs-post-head h1{font-size:clamp(1.7rem,4.2vw,2.5rem);line-height:1.15;margin:.3rem 0 .6rem;color:#102b3a}
+.zs-crumbs,.zs-meta{font-size:.9rem;color:#5b6b78;margin:0}
+.zs-crumbs a,.zs-meta a{color:#0b5c53}
+.post-body{margin-top:14px}
+.post-body > header.top, .post-body > .top{border-radius:16px 16px 0 0}
+.zs-hero{padding:36px 0 10px}
+.zs-hero h1{font-size:clamp(2rem,5vw,3rem);margin:0 0 .4rem;color:#102b3a}
+.zs-hero p{font-size:1.1rem;max-width:760px;color:#3b4a56}
+.zs-hero-note{font-size:.95rem;color:#5b6b78}
+.zs-section h2{font-size:1.4rem;margin:28px 0 12px;color:#102b3a}
+.zs-count{color:#8a98a4;font-weight:400;font-size:1rem}
+.zs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.zs-card{background:#fff;border:1px solid #dfe6ea;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.zs-card-img img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
+.zs-card-body{padding:14px 16px 16px}
+.zs-card-tag{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:#0b5c53;font-weight:700;margin:0 0 6px}
+.zs-card h3{font-size:1.08rem;line-height:1.3;margin:0 0 8px}
+.zs-card h3 a{color:#102b3a;text-decoration:none}
+.zs-card h3 a:hover{text-decoration:underline}
+.zs-card p{margin:0 0 6px;font-size:.95rem;color:#3b4a56}
+.zs-card-date{font-size:.82rem;color:#8a98a4}
+.zs-more{display:inline-block;margin-top:10px;font-weight:700;color:#0b5c53}
+.zs-list{list-style:none;padding:0;margin:0}
+.zs-list li{padding:10px 0;border-bottom:1px solid #e3e9ed}
+.zs-list a{color:#102b3a;font-weight:600;text-decoration:none}
+.zs-list a:hover{text-decoration:underline}
+.zs-page{background:#fff;border:1px solid #dfe6ea;border-radius:14px;padding:22px 26px}
+.zs-page h3{margin-top:1.4rem}
+.zs-foot{max-width:1040px;margin:30px auto 0;padding:22px 18px 110px;border-top:1px solid #dfe6ea;color:#5b6b78;font-size:.9rem}
+.zs-foot a{color:#0b5c53}
+@media (max-width:640px){.zs-nav nav{margin-left:0}.zs-main{padding:12px 14px 40px}.zs-page{padding:16px}}
