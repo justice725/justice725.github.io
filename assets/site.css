@@ -1,4 +1,4 @@
-/* ZetaStore site chrome — 글 본문(.post-body) 안은 각 글이 가진 스타일을 그대로 씁니다 */
+/* ZetaStore site chrome; inside .post-body each article keeps its own styles */
 body.zs-site{margin:0;background:#f3f6f8;color:#1f2d3a;font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .zs-nav{background:#0f2b3a;color:#fff}
 .zs-nav-in{max-width:1040px;margin:0 auto;padding:12px 18px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
