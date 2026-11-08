@@ -59,6 +59,7 @@ Each review summarizes the vendor's sales page and label, cites independent sour
 ## Ingredient guides
 
 - [Probiotic: What It Is, Evidence, Dose & Side Effects](https://justice725.github.io/guides/probiotic-what-it-is-evidence-dose-side-effects/): Probiotics are live bacteria or yeasts found in some fermented foods and supplements. They are commonly sold for digestive health, but benefits vary by strain.
+- [Ginkgo Biloba: What It Is, Evidence, Dose & Side Effects](https://justice725.github.io/guides/ginkgo-biloba-what-it-is-evidence-dose-side-effects/): Ginkgo biloba is a tree native to China; its leaf extract is sold for memory, circulation, and other wellness claims.
 
 ## Categories
 
@@ -68,8 +69,8 @@ Each review summarizes the vendor's sales page and label, cites independent sour
 - [Remedies reviews](https://justice725.github.io/category/remedies/): 3 reviews
 - [Spirituality, New Age & Alternative Beliefs reviews](https://justice725.github.io/category/spirituality-new-age-alternative-beliefs/): 3 reviews
 - [Diets & Weight Loss reviews](https://justice725.github.io/category/diets-weight-loss/): 2 reviews
+- [Guides reviews](https://justice725.github.io/category/guides/): 2 reviews
 - [Self-Help reviews](https://justice725.github.io/category/self-help/): 2 reviews
-- [Guides reviews](https://justice725.github.io/category/guides/): 1 reviews
 
 ## About
 
