@@ -55,6 +55,10 @@ Each review summarizes the vendor's sales page and label, cites independent sour
 - [Tina Aldea Soulmate Sketch: What Is Included & How It Works](https://justice725.github.io/reviews/tina-aldea-soulmate-sketch-what-is/): Explore Tina Aldea’s Soulmate Sketch: a psychic portrait, detailed reading, and bonus guide, delivered by email in 24 hours with a money-back guarantee.
 - [Phytomem One Review: Ingredients, Features & What to Know Before You Buy](https://justice725.github.io/reviews/phytomem-one-review-ingredients/): Know what goes into your daily routine. Explore a 10-ingredient dietary supplement marketed for memory, focus, and mental clarity—with the details that matter before you buy.
 
+## Ingredient guides
+
+- [Probiotic: What It Is, Evidence, Dose & Side Effects](https://justice725.github.io/guides/probiotic-what-it-is-evidence-dose-side-effects/): Probiotics are live bacteria or yeasts found in some fermented foods and supplements. They are commonly sold for digestive health, but benefits vary by strain.
+
 ## Categories
 
 - [Dietary Supplements reviews](https://justice725.github.io/category/dietary-supplements/): 20 reviews
@@ -64,6 +68,7 @@ Each review summarizes the vendor's sales page and label, cites independent sour
 - [Spirituality, New Age & Alternative Beliefs reviews](https://justice725.github.io/category/spirituality-new-age-alternative-beliefs/): 3 reviews
 - [Diets & Weight Loss reviews](https://justice725.github.io/category/diets-weight-loss/): 2 reviews
 - [Self-Help reviews](https://justice725.github.io/category/self-help/): 2 reviews
+- [Guides reviews](https://justice725.github.io/category/guides/): 1 reviews
 
 ## About
 
