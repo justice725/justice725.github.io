@@ -14,16 +14,44 @@ body.zs-site .zs-post-head h1{color:#102b3a;background:transparent}
 .zs-crumbs a,.zs-meta a{color:#0b5c53}
 .post-body{margin-top:14px}
 .post-body > header.top, .post-body > .top{border-radius:16px 16px 0 0}
-.zs-hero{padding:36px 0 10px}
-.zs-hero h1{font-size:clamp(2rem,5vw,3rem);margin:0 0 .4rem;color:#102b3a}
-.zs-hero p{font-size:1.1rem;max-width:760px;color:#3b4a56}
-.zs-hero-note{font-size:.95rem;color:#5b6b78}
+.zs-hero{padding:34px 0 8px}
+.zs-eyebrow{margin:0 0 10px;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#0b5c53}
+.zs-hero h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.1;margin:0 0 .6rem;color:#102b3a;max-width:820px}
+.zs-hero-lead{font-size:1.12rem;max-width:720px;color:#3b4a56;margin:0 0 18px}
+.zs-search{position:relative;max-width:620px;margin:0 0 14px}
+.zs-search input{width:100%;box-sizing:border-box;padding:15px 18px;border:2px solid #cfe3de;border-radius:14px;font:inherit;font-size:1.05rem;background:#fff;color:#1f2d3a}
+.zs-search input:focus{outline:none;border-color:#0f766e;box-shadow:0 0 0 4px rgba(15,118,110,.15)}
+.zs-search-list{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:20;margin:0;padding:6px 0;list-style:none;background:#fff;border:1px solid #cfe3de;border-radius:12px;box-shadow:0 12px 30px rgba(16,43,58,.14)}
+.zs-search-list li a{display:block;padding:10px 16px;color:#102b3a;text-decoration:none;font-weight:600}
+.zs-search-list li a:hover{background:#f3faf8;color:#0b5c53}
+.zs-search-none{margin:8px 2px 0;font-size:.92rem;color:#5b6b78}
+.zs-search-none a{color:#0b5c53}
+.zs-visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.zs-hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}
+.zs-btn{display:inline-block;padding:12px 20px;border-radius:12px;background:#0f766e;color:#fff;font-weight:800;text-decoration:none}
+.zs-btn:hover{background:#0b5c53}
+.zs-btn-ghost{background:#fff;color:#0b5c53;border:2px solid #cfe3de}
+.zs-btn-ghost:hover{background:#f3faf8}
+.zs-trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:0 0 10px;padding:0;list-style:none}
+.zs-trust li{padding:12px 14px;border:1px solid #dfe6ea;border-radius:12px;background:#fff;font-size:.9rem;line-height:1.45;color:#3b4a56}
+.zs-trust b{display:block;color:#102b3a;margin-bottom:2px}
+.zs-trust a{color:#0b5c53}
+.zs-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.zs-chip{display:inline-block;padding:3px 9px;border-radius:999px;background:#e6f4f1;color:#0b5c53;font-size:.78rem;font-weight:700;line-height:1.4}
+.zs-chip-warn{background:#fdf1e7;color:#9a4b12}
+.zs-card-blurb{flex:1}
+.zs-card-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:4px 0 0!important}
+.zs-card-cta{font-weight:800;color:#0b5c53;text-decoration:none}
+.zs-card-cta:hover{text-decoration:underline}
+.zs-card{transition:transform .15s ease,box-shadow .15s ease}
+.zs-card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(16,43,58,.1)}
+.zs-list .zs-chips{margin:4px 0 0}
 .zs-section h2{font-size:1.4rem;margin:28px 0 12px;color:#102b3a}
 .zs-count{color:#8a98a4;font-weight:400;font-size:1rem}
 .zs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
 .zs-card{background:#fff;border:1px solid #dfe6ea;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
 .zs-card-img img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
-.zs-card-body{padding:14px 16px 16px}
+.zs-card-body{padding:14px 16px 16px;display:flex;flex-direction:column;flex:1}
 .zs-card-tag{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:#0b5c53;font-weight:700;margin:0 0 6px}
 .zs-card h3{font-size:1.08rem;line-height:1.3;margin:0 0 8px}
 .zs-card h3 a{color:#102b3a;text-decoration:none}
@@ -39,4 +67,4 @@ body.zs-site .zs-post-head h1{color:#102b3a;background:transparent}
 .zs-page h3{margin-top:1.4rem}
 .zs-foot{max-width:1040px;margin:30px auto 0;padding:22px 18px 110px;border-top:1px solid #dfe6ea;color:#5b6b78;font-size:.9rem}
 .zs-foot a{color:#0b5c53}
-@media (max-width:640px){.zs-nav nav{margin-left:0}.zs-main{padding:12px 14px 40px}.zs-page{padding:16px}}
+@media (max-width:640px){.zs-nav nav{margin-left:0}.zs-main{padding:12px 14px 40px}.zs-page{padding:16px}.zs-hero{padding-top:22px}.zs-hero-lead{font-size:1.02rem}.zs-btn{flex:1;text-align:center}}
