@@ -36,6 +36,13 @@ body.zs-site .zs-post-head h1{color:#102b3a;background:transparent}
 .zs-trust li{padding:12px 14px;border:1px solid #dfe6ea;border-radius:12px;background:#fff;font-size:.9rem;line-height:1.45;color:#3b4a56}
 .zs-trust b{display:block;color:#102b3a;margin-bottom:2px}
 .zs-trust a{color:#0b5c53}
+.zs-foot-popular{margin:10px 0 6px;line-height:1.7}.zs-foot-popular a{color:#0b5c53;white-space:nowrap}
+.post-body .zs-link-off{color:#8a99a6;font-size:.9rem}
+.zs-page{max-width:1040px;margin:0 auto;padding:0 18px}.zs-page h1{font-size:1.7rem;line-height:1.25;margin:18px 0 10px}
+.zs-g-sum{font-size:1.05rem;color:#102b3a}.zs-g-note{color:#5b6b78;font-size:.9rem}
+.zs-table-wrap{overflow-x:auto;margin:14px 0}.zs-gtable{border-collapse:collapse;width:100%;font-size:.92rem}
+.zs-gtable th,.zs-gtable td{border:1px solid #dfe6ea;padding:8px 10px;text-align:left;vertical-align:top}.zs-gtable th{background:#f3f6f8;color:#102b3a}
+.zs-gtable td.zs-num{text-align:right;font-variant-numeric:tabular-nums}.zs-gtable a{color:#0b5c53;font-weight:600}
 .zs-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
 .zs-chip{display:inline-block;padding:3px 9px;border-radius:999px;background:#e6f4f1;color:#0b5c53;font-size:.78rem;font-weight:700;line-height:1.4}
 .zs-chip-warn{background:#fdf1e7;color:#9a4b12}
